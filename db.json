@@ -1,11 +1,17 @@
+{  
+  "test":[  
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "type" : "http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.5.1",
+  "title" : "Internal Server Error",
+  "detail" : "Internal server error. Please contact oracle support for details.",
+  "o:errorCode" : "500",
+  "o:errorDetails" : [ {
+    "type" : "Dummy Error Type",
+    "instance" : "NA",
+    "title" : "Dummy Error Title",
+    "o:errorPath" : "NA",
+    "o:errorCode" : "NA"
+  } ]
+}
+  ]
 }
